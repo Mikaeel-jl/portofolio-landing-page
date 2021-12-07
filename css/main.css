@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 0 4rem;
+}
+
+.checked {
+    color: orange;
+  }
+
+/* --------- Start Header ----------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    /* background: #b7cdca; */
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    list-style-type: none;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #929292;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+    transition: border-bottom 0.1s linear;
+}
+.navbar a:hover {
+    border-bottom: 3px solid #b7cdca;
+}
+.say-hi {
+    
+    font-size: 1rem;
+    border-bottom: 3px solid #b7cdca;
+}
+.say-hi a {
+    text-decoration: none;
+    color: #89acae;
+}
+.hamburger-menu {
+    display: none;
+    font-size: 2rem;
+    color: #929292;
+}
+
+/* ----------- End Header ------------ */
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-image img{
+    height: 700px;
+    margin-top: 4px;
+}
+
+.home-title {
+    color: #192e41;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.home-paragraph {
+    color: #929292;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.home-btn button {
+    width: 200px;
+    height: 55px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 8px;
+    margin-top: 20px;
+    background: #1faf96;
+    color: #a4f0e6;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1),
+    -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+.home-btn a {
+    text-decoration: none;
+    color: #a4f0e6;
+}
+.home-btn button:hover {
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+/* ----------------- end home article -------------- */
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-content{
+    margin-top: -45px;
+}
+.little-title {
+    color: #929292;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.big-title {
+    color: #192e41;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 68px;
+}
+
+.html-skill ,.css-skill ,.js-skill {
+    display: flex;
+}
+
+.skill-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #212b2d;
+    margin-bottom: 8px;
+}
+.skill-paragraph{
+    color: #929292;
+    margin-bottom: 20px;
+}
+
+.icon {
+    height: 35px;
+    /* margin-right: 20px; */
+}
+.html-icon{
+    margin-right: 13px;
+}
+.css-icon{
+    margin-right: 18px;
+    margin-left: 6px;
+}
+.js-icon{
+    margin-right: 11px;
+    margin-left: 0px;
+    height: 45px;
+}
+
+.skills-image img {
+    height: 700px;
+}
+
+/* -------------- end skils article -------------- */
+
+.client-little-title ,.client-big-title {
+    text-align: center;
+}
+
+.comment-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 0 30px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-card {
+    background: #fbfbfb;
+}
+
+.card-user-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card-user-photo img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card-user-name{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+.user-star-rating{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card-user-comment{
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px 10px;
+}
+/* -------- end comment article ------------ */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.contact-image img {
+    margin-top: 20px;
+    height: 500px;
+
+}
+.contact-title {
+    margin-bottom: 30px;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    background: #fbfbfb;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1),
+    -2px -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-email input {
+    width: 200px;
+    height: 55px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #24b491;
+}
+.contact-email a {
+    text-decoration: none;
+}
+.contact-email button {
+    background: #24b491;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+/* ----------- end contact --------------- */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    color: #929292;
+}
+.heart {
+    color: tomato;
+    width: 30px;
+    height: 30px;
+}
+
+

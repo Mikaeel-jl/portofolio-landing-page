@@ -1,0 +1,253 @@
+/* ------------ RESPONSIVE CHANGES -------------- */
+@media (min-width: 320px) and (max-width: 424px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+    /* ------- start header XS responsive ---------- */
+    
+    .navbar {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* --------- end HEADER XS responsive --------*/
+    .home {
+        flex-direction: column-reverse;
+    }
+    .home-image img {
+        height: 300px;
+    }
+    .home-title {
+        margin:20px 0;
+        font-size: 2rem;
+    }
+    .home-paragraph {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+    }
+    /* --------- end home XS responsive --------*/
+    .skills {
+        flex-direction: column;
+    }
+    .skills-image img {
+        height: 300px;
+    }
+    .little-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .big-title {
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+    /* --------- end skill XS responsive --------*/
+    .comment-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* --------- end comment XS responsive --------*/
+    .contact-image img {
+        height: 300px
+    }
+    .contact-title {
+        font-size: 1.1rem;
+    }
+    
+    .contact-email {
+        width: 300px;
+        height: 55px;
+    }
+    .contact-email button {
+        width: 80px;
+    }
+
+    /* --------- end contact XS responsive --------*/
+    footer {
+        margin: 40px 0;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    /* ------- start header S responsive ---------- */
+    
+    .navbar {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* --------- end HEADER S responsive --------*/
+    .home {
+        flex-direction: column-reverse;
+    }
+    .home-image img {
+        height: 400px;
+    }
+    .home-title {
+        margin:20px 0;
+        font-size: 2.5rem;
+    }
+    .home-paragraph {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    /* --------- end home S responsive --------*/
+    .skills {
+        flex-direction: column;
+    }
+    .skills-image img {
+        height: 400px;
+    }
+    .little-title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .big-title {
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+    /* --------- end skill S responsive --------*/
+    .comment-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-image img {
+        height: 400px;
+    }
+    .contact-title {
+        font-size: 1.5rem;
+    }
+    /* --------- end comment S responsive --------*/
+    footer {
+        margin: 40px 0;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+    .container {
+        padding: 0 2rem;
+    }
+    
+    /* ------- start home */
+    .home {
+        flex-direction: column-reverse;
+    }
+    .home-image img {
+        height: 500px;
+    }
+    .home-content {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .home-title {
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+    .home-paragraph {
+        width: 600px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    /* --------- end home m responsive --------*/
+    .skills {
+        flex-direction: column;
+    }
+    .skills-image img {
+        height: 600px;
+    }
+    .little-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .big-title {
+        margin-bottom: 50px;
+    }
+    /* --------- end skill m responsive --------*/
+    .comment-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* --------- end comment m responsive --------*/
+    .contact-title {
+        font-size: 2.8rem;
+    }
+    /* --------- end contact m responsive --------*/
+    footer {
+        margin: 40px 0;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    .home-image img {
+        height: 450px;
+    }
+    .home-title {
+        font-size: 2.5rem;
+    }
+    .home-paragraph {
+        font-size: 1.5rem;
+    }
+    /* ------- end home l responsive --------*/
+    .skills-image img {
+        height: 500px;
+    }
+    .little-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .big-title {
+        font-size: 2.8rem;
+        margin-bottom: 30px;
+    }
+    .skill-paragraph {
+        font-size: 0.7rem;
+    }
+    /* ------- end skiils l responsive --------*/
+    footer {
+        margin: 40px 0;
+        justify-content: space-between;
+    }
+    .heart-Sentence {
+        display: block;
+    }
+    /* ------- end footer l responsive --------*/
+}
+
+@media (min-width: 1200px) and (max-width: 1415px) {
+    .home-image img {
+        height: 600px;
+    }
+    .home-title {
+        font-size: 3.2rem;
+    }
+    .home-paragraph {
+        font-size: 1.3rem;
+    }
+    /* ------- end home xl responsive --------*/
+    .little-title {
+        margin-bottom: 20px;
+    }
+    .big-title {
+        font-size: 3.8rem;
+    }
+    .skills-image img {
+        height: 600px;
+    }
+    .skills {
+        margin-bottom: 10px;
+    }
+    .skill-paragraph {
+        font-size: 0.8rem;
+    }
+    /* ------- end skill xl responsive --------- */
+}
